@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
+.HomePageWrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.formWrapper{
+  background: rgb(43, 45, 61);
+  padding:22px;
+  border-radius: 12px;
+  width: 400px;
+  max-width: 90%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+footer{
+  position: fixed;
+  margin-left: 0;
+  bottom: 0;
+}
+footer>h1{
+  opacity: 0.05;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inputGroup{
   display: flex;
   flex-direction: column;
+}
+
+.mainLabel{
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.HomeLogo{
+  height:80%;
+  margin-bottom: 30px;
+}
+
+.inputBox{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius:5px ;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition:all 0 3s ease-in-out;
+}
+
+.JoinBtn{
+  background: #4aedBB;
+  width:100px;
+  margin-left: auto;
+}
+.JoinBtn:hover{
+  background: #3eb994;
+}
+.createInfo{
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn{
+  color: #3eb994;
+  text-decoration: none;
+  font-size: larger;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover{
+  color: #4aedBB;
+}
+
+.createNewBtn:active{
+  color: #1b5846;
+}
+
+
+
+
+
+
+.mainWrap{
+  /* height: 100vh; */
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+.aside{
+  background: #393946;
+  color: #fff;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  /* width: 40vh; */
+  /* height: 96vh; */
+}
+
+.asideInner{
+  flex:1;
+}
+
+.client_List{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.Client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.logo{
+  border-bottom: 1px solid #424242;
+  padding-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logoImage{
+  height: 70px;
+}
+
+.Leave_btn{
+  margin-top: 20px;
+  background: #4aedBB;
+}
+
+.Leave_btn:hover{
+  background: #5eaa93;
+}
+
+.Leave_btn:active{
+  background: #386457;
+}
+.copyBtn:hover{
+  background: #b3b3b4;
+}
+
+.copyBtn:active{
+  background: #727274;
+}
+
+
+
+
+
+
+/* Codemirror */
+
+.Editor{
+  height: 100vh;
+}
+
+.CodeMirror {
+  height: calc(100vh);
+  max-height: calc(100vh);
+  font-size: 20px;
 }
