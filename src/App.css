@@ -6,10 +6,10 @@
     color: #fff;
 }
 .formWrapper{
-  background: rgb(43, 45, 61);
-  padding:22px;
-  border-radius: 12px;
-  width: 400px;
+  background: rgb(38, 38, 41);
+  padding:2%;
+  border-radius: 10%;
+  width: 30%;
   max-width: 90%;
 }
 
@@ -164,8 +164,10 @@ footer>h1{
   height: 100vh;
 }
 
+
 .CodeMirror {
-  height: calc(100vh);
-  max-height: calc(100vh);
+  min-height: calc(100vh - 20px);
   font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
 }
